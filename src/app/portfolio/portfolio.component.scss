@@ -1,0 +1,19 @@
+.portfolio{
+
+    .line {
+        width: 60px;
+        height: 4px;
+    }
+
+    .layer__ {
+        background-color: #1abc9ce6;
+        opacity: 0;
+        cursor: pointer;
+        transition: .6s opacity;
+    }
+
+    .layer__:hover {
+        opacity: 1;
+
+    }
+}
